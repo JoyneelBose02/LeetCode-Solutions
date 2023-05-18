@@ -1,0 +1,9 @@
+//Leetcode 215
+//Kth largest element of the array
+import java.util.*;
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        Arrays.sort(nums);
+        return nums[nums.length-k];
+    }
+}
