@@ -1,5 +1,6 @@
 //Leetcode 442
 //Find all the duplicates in an array
+import java.util.*;
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         int n = nums.length;
