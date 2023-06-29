@@ -16,7 +16,6 @@ class RandomizedSet {
             s.add(val);
             return true;
         }
-
     }
     
     public boolean remove(int val) {
